@@ -8,6 +8,7 @@
 body {
     
     color: #ededed;
+    
 }
 
 .header{
@@ -25,7 +26,7 @@ body {
 
 .logo{
     font-size: 25px;
-    color: #ededed;
+    color: #00abf0;
     text-decoration: none;
     font-weight: 600;
 }
@@ -89,7 +90,7 @@ body {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: 130px;
     height: 100%;
     background: #00abf0;
     border: 2px solid #00abf0;
@@ -97,8 +98,8 @@ body {
     font-size: 19px;
     color: #081b29;
     text-decoration: none;
-    font-weight: 600;
-    letter-spacing: 1px;
+    font-weight: 700;
+  
     z-index: 1;
     overflow: hidden;
     transition: .5s;
@@ -182,3 +183,60 @@ body {
 .home-sci a:hover::before {
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .home-content h1 {
+      font-size: 24px;
+    }
+    .home-content {
+        width: 280px;
+        margin-bottom: 120px;
+        
+        
+       
+        
+    }
+
+    .header{
+        display: block;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home{
+        position: absolute;
+        background: none;
+        background-color: #081b29;
+    }
+     
+
+    .links {
+        position: absolute;
+        left: 80px;
+        top: 20px;
+        
+    }
+
+    .links a {
+        font-size: 14px;
+    }
+    
+
+    
+    .btn-box {
+      font-size: 16px;
+      margin-left: -10px;
+
+    
+
+    }
+    .it{
+        margin-right: 20px;
+    }
+
+    .home-sci {
+        margin-bottom: 180px;
+    }
+  }
